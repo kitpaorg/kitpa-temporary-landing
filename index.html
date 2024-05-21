@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국정보기술진흥원</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #333;
+            animation: slideIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #666;
+            animation: slideIn 2s ease-in-out;
+            animation-delay: 0.5s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./logo.png" alt="로고" width="200px">
+        <h1>사이트 리뉴얼 중입니다.</h1>
+        <p>방문해주셔서 감사합니다.<br>
+            새롭게 바뀌는 한국정보기술진흥원 사이트를 위해 사이트 이용이 일시적으로 중단됩니다.<br>
+            최대한 빠른 시일 내에 정상적으로 서비스를 제공하도록 노력하겠습니다.<br><br>
+            점검 일시: 5월 14일 오전 10시 ~ 5월 23일<br><br>
+            ※ 해당 작업의 지연에 따라 연장 될 수 있습니다.<br><br>
+            점검 기간동안의 문의는 카카오톡 채널로 주시기 바랍니다. 감사합니다.<br>
+            <a href="https://pf.kakao.com/_wRYQxj">카카오톡 채널 바로가기</a>
+        </p>
+    </div>
+</body>
+
+</html>
